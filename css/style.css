@@ -1,19 +1,21 @@
 @font-face {
   font-family: 'NationalPark-Heavy';
-  src: url('/fonts/NationalPark-Heavy/NationalPark-Heavy.woff2') format('woff2'),
-       url('/fonts/NationalPark-Heavy/NationalPark-Heavy.woff') format('woff'),
-       url('/fonts/NationalPark-Heavy/NationalPark-Heavy.ttf')  format('truetype');
+  src: url('../fonts/NationalPark-Heavy/NationalPark-Heavy.woff2') format('woff2'),
+       url('../fonts/NationalPark-Heavy/NationalPark-Heavy.woff') format('woff'),
+       url('../fonts/NationalPark-Heavy/NationalPark-Heavy.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'NationalPark-Regular';
-  src: url('/fonts/NationalPark-Regular/NationalPark-Regular.woff2') format('woff2'),
-       url('/fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'),
-       url('/fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
+  src: url('../fonts/NationalPark-Regular/NationalPark-Regular.woff2') format('woff2'),
+       url('../fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'),
+       url('../fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
 }
 body {
 	background-color: beige;
 }
-
+.top-bar, .top-bar ul {
+	background-color: beige;
+}
 .main {
   width: 75%;
   margin-top: 2em;
