@@ -32,26 +32,6 @@
 	letter-spacing: 4px;
 	font-size: 1.5em;
 }
-.orbit-container {
-	max-width: 1200px;
-	max-height: 650px;
-}
-.lnt {
-	padding: 36px;
-		column-count: 2;
-	max-height: 650px;
-}
-.lnt-head {
-	font-size: 2em;
-	column-span: all;
-}
-.lnt-subhead {
-font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	letter-spacing: 1px;
-}
-.lnt-list {
-	list-style: disc;
-}
 a:link, a:visited {
 	color: #7D7F24;
 }
@@ -85,8 +65,39 @@ font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "
 }
 p{
 	max-width: 1200px;
+	font-size: 1.1em;
 }
-
+.orbit-container {
+	max-width: 1200px;
+	max-height: 650px;
+}
+.lnt {
+	padding: 36px;
+		column-count: 2;
+	column-gap: 2em;
+	column-rule: solid 2px;
+	
+	max-height: 650px;
+		font-size: .9em;
+}
+.lnt-head {
+	font-size: 2em;
+	column-span: all;
+	margin-bottom: 1.5rem;
+}
+.lnt-subhead {
+font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	margin-bottom: .5rem;
+}
+.lnt-list {
+	list-style: disc;
+	margin-bottom: 1rem;
+}
+.lnt-body {
+	margin-bottom: .75rem;
+}
 #greeting {
 	color: #000;
 }
