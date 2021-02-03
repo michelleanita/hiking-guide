@@ -37,7 +37,8 @@ a:link, a:visited {
 }
 a:hover, a:active, a:focus {
 	color: #22506A;
-	cursor: crosshair;
+	cursor: url('../images/cursor1.png'), auto;
+	
 }
 h1 {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
