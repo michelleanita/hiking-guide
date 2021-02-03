@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'NationalPark-Heavy';
+  src: url('/fonts/NationalPark-Heavy/NationalPark-Heavy.woff2') format('woff2'),
+       url('/fonts/NationalPark-Heavy/NationalPark-Heavy.woff') format('woff'),
+       url('/fonts/NationalPark-Heavy/NationalPark-Heavy.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'NationalPark-Regular';
+  src: url('/fonts/NationalPark-Regular/NationalPark-Regular.woff2') format('woff2'),
+       url('/fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'),
+       url('/fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
+}
+
+.main {
+  width: 75%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-bottom: 20px;
+}
+.orbit-container {
+	max-width: 1200px;
+	max-height: 650px;
+}
+
+.menu {
+	font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.menu-text {
+	letter-spacing: 4px;
+	font-size: 1.5em;
+}
+
+
+
+
+.lnt {
+	padding: 36px;
+}
+.lnt-subhead {
+font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 1px;
+}
+.lnt-head {
+	font-size: 2em;
+	column-span: all;
+}
+.lnt-list {
+	list-style: disc;
+}
+.lnt {
+	column-count: 2;
+	max-height: 650px;
+}
+
+
+
+a:link, a:visited {
+	color: #24656F;
+}
+a:hover, a:active, a:focus {
+	color: #FFBDFF;
+	cursor: crosshair;
+}
+
+
+
+h1, h2, h3 {
+	font-family: 'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+h4 {
+font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+
+h5 {
+font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+}
+p{
+	max-width: 1200px;
+}
+
+
+#essentials {
+	max-width: 1200px;
+}
+.st0{opacity:0.5;fill:#D3DCE1;}
+		.st1{fill:#22506A;}
+		.st2{fill:#3875A1;}
+		.st3{fill:#333D38;}
+		.st4{fill:#B5A79C;}
+		.st5{fill:#C1B1A3;}
+		.st6{fill:#CCBEB0;}
+		.st7{fill:#D9C9B9;}
+		.st8{opacity:0.2;fill:#020101;}
+		.st9{fill:#474642;}
+		.st10{fill:#DDDDDD;}
+		.st11{fill:#FFBE82;}
+		.st12{fill:#7D7F24;}
+		.st13{opacity:0.2;}
+		.st14{fill:#FFF9C5;}
+		.st15{fill:#965C30;}
+		.st16{fill:#889029;}
+		.st17{fill:#58442C;}
+		.st18{fill:#848426;}
+		.st19{fill:#9D6232;}
+		.st20{fill:#F4AE7A;}
+		.st21{fill:#878925;}
+		.st22{fill:#563322;}
+		.st23{fill:#474747;}
+		.st24{fill:#1E828C;}
+		.st25{fill:#515151;}
+		.st26{opacity:0.2;fill:#FFFFFF;}
+		.st27{fill:#F79F87;}
+		.st28{fill:#AD3E44;}
+		.st29{fill:#4F2910;}
+		.st30{fill:#AAA7A5;}
+		.st31{fill:#FFFFFF;}
+		.st32{fill:#BAA794;}
+		.st33{fill:#30373D;}
+		.st34{fill:#A7B9C3;}
+		.st35{fill:#7A9349;}
+		.st36{fill:#657A36;}
+		.st37{fill:#CE8839;}
+		.st38{fill:#B77431;}
+		.st39{fill:#839E56;}
+		.st40{fill:#718743;}
+		.st41{fill:#A8C660;}
+		.st42{fill:#ADD159;}
+		.st43{fill:#CCDF78;}
+		.st44{fill:#E5EA89;}
+		.st45{fill:#91BAE3;}
+		.st46{fill:#76AADB;}
+		.st47{fill:#4AB5E7;}
+		.st48{fill:#FEE576;}
+		.st49{fill:#DEA662;}
+		.st50{fill:#8E7D7D;}
+		.st51{fill:#716767;}
+		.st52{fill:#615151;}
+		.st53{fill:#968C87;}
+		.st54{fill:#9F9595;}
+		.st55{fill:#EE3331;}
+		.st56{fill:#389BD6;}
+		.st57{fill:#FFCE07;}
+		.st58{fill:#695E5F;}
+		.st59{fill:#7F7474;}
+		.st60{fill:#FCBE11;}
+		.st61{fill:#CEC4C4;}
+		.st62{fill:#574748;}
+		.st63{fill:#DDD9D9;}
+		.st64{fill:#BEDB83;}
+		.st65{fill:#22506A;}
+		.st66{font-family:'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+		.st67{font-size:48px;}
+		.st68{letter-spacing:4px;}
+		.st69{font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+		.st70{font-size:20px;}
+		.st71{letter-spacing:1px; text-transform: uppercase;}
+		.st72{font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+		.st73{fill:#559DD2;}
+		.st74{fill:#4382B8;}
+		.st75{fill:#B9D9F2;}
+		.st76{fill:#318FC9;}
+		.st77{fill:#79B0DF;}
+		.st78{fill:#BCB5B5;}
+		.st79{fill:#B05A28;}
+		.st80{fill:#C97954;}
+		.st81{fill:#BC6C29;}
+		.st82{fill:#EF3B39;}
+		.st83{fill:#F04B4C;}
+		.st84{fill:#F26557;}
+		.st85{fill:#F6C163;}
+		.st86{fill:#EABC62;}
+		.st87{fill:#B7B3B3;}
+		.st88{fill:#ECB458;}
+		.st89{fill:#DEA04F;}
+		.st90{fill:#FFDE9C;}
+		.st91{fill:#F57F20;}
+		.st92{fill:#F7901E;}
+		.st93{fill:#DD8C3A;}
+		.st94{fill:#C57533;}
+		.st95{fill:#FAA32F;}
+		.st96{fill:#FDB81A;}
+		.st97{fill:#BCCC9A;}
+		.st98{fill:#50592F;}
+		.st99{fill:#9BC8EB;}
+		.st100{fill:#D7EEFB;}
+		.st101{fill:#C3DFF4;}
+		.st102{fill:#C6762D;}
+		.st103{fill:#FEDC50;}
+		.st104{fill:#BF7132;}
+		.st105{fill:#FEEA98;}
+		.st106{fill:#F9A51B;}
+		.st107{fill:#F39220;}
+		.st108{fill:#A8A7A7;}
+		.st109{fill:#FFD628;}
+		.st110{fill:#849F57;}
+		.st111{fill:#F5F5F5;}
+		.st112{fill:#7F9954;}
+		.st113{fill:#A4B978;}
+		.st114{fill:#657B37;}
+		.st115{fill:#FCCF0B;}
+		.st116{fill:#4F4245;}
+		.st117{fill:#E5E5E5;}
+		.st118{fill:#473B3E;}
+		.st119{fill:#6A5F60;}
+		.st120{fill:#403538;}
+		.st121{fill:#5F5556;}
+		.st122{fill:#756266;}
+		.st123{fill:#8F7C80;}
+		.st124{fill:#EE3133;}
+		.st125{fill:#D62B2C;}
+		.st126{fill:#E22D2F;}
+		.st127{fill:#F2F2F3;}
+		.st128{fill:#EF4B4D;}
+		.st129{fill:#47403D;}
+		.st130{fill:#F1C717;}
+		.st131{fill:#E8D56E;}
+		.st132{fill:#EDB280;}
+		.st133{fill:#7D7272;}
+		.st134{fill:#FFF6C7;}
+		.st135{fill:#FEE05F;}
+		.st136{fill:#ADBF60;}
+		.st137{fill:#CCCCCB;}
+		.st138{fill:#FAB61B;}
+		.st139{fill:#35302E;}
+		.st140{fill:#453E3C;}
+		.st141{fill:#FCDE4E;}
+		.st142{fill:#E34648;}
+		.st143{fill:#F0D349;}
+		.st144{fill:#F1F0F0;}
+		.st145{fill:#E14648;}
+		.st146{fill:#E4E4E4;}
+		.st147{fill:#D64243;}
+		.st148{fill:#E02C2E;}
+		.st149{font-size:40px;}
+		.st150{font-size:50px; line-height: 52px;} 
+		.st151{font-size:20px;}
+
+
+
+
+#navi-text, #navi-bg {
+  display: none;
+}
+
+
+#hiker:hover #intro-text {
+	display: inherit;
+}
+.navi:hover #navi-text {
+  display: inherit;
+}
+.navi:hover #navi-bg {
+  display: inherit;
+}
+
+
+#aid-text, #aid-bg {
+  display: none;
+}
+.aid:hover #aid-text {
+  display: inherit;
+}
+.aid:hover #aid-bg {
+  display: inherit;
+}
+
+
+#tool-text, #tool-bg {
+  display: none;
+}
+.tools:hover #tool-text {
+	display: inherit;
+}
+.tools:hover #tool-bg {
+	display: inherit;
+}
+
+
+#food-text, #food-bg {
+  display: none;
+}
+.food:hover #food-text {
+	display: inherit;
+}
+.food:hover #food-bg {
+	display: inherit;
+}
+
+
+#fire-text, #fire-bg {
+  display: none;
+}
+.fire:hover #fire-text {
+	display: inherit;
+}
+.fire:hover #fire-bg {
+	display: inherit;
+}
+
+
+#water-text, #water-bg {
+  display: none;
+}
+.water:hover #water-text {
+	display: inherit;
+}
+.water:hover #water-bg {
+	display: inherit;
+}
+
+
+#tent-text, #tent-bg {
+  display: none;
+}
+.tent:hover #tent-text {
+	display: inherit;
+}
+.tent:hover #tent-bg {
+	display: inherit;
+}
+
+
+
+#cloth-text, #cloth-bg {
+  display: none;
+}
+.cloth:hover #cloth-text {
+	display: inherit;
+}
+.cloth:hover #cloth-bg {
+	display: inherit;
+}
+
+
+
+#light-text, #light-bg {
+  display: none;
+}
+.light:hover #light-text {
+	display: inherit;
+}
+.light:hover #light-bg {
+	display: inherit;
+}
+
+
+
+#sun-text, #sun-bg {
+  display: none;
+}
+.sun:hover #sun-text {
+	display: inherit;
+}
+.sun:hover #sun-bg {
+	display: inherit;
+}
+
+

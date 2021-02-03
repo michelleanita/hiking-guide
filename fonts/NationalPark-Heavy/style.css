@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'NationalPark-Heavy';
+  src: url('/path-to/NationalPark-Heavy.woff2') format('woff2'),
+       url('/path-to/NationalPark-Heavy.woff') format('woff'),
+       url('/path-to/NationalPark-Heavy.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'NationalPark-Heavy', sans-serif;
+}

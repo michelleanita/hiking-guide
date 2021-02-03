@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'NationalPark-Outline';
+  src: url('/path-to/NationalPark-Outline.woff2') format('woff2'),
+       url('/path-to/NationalPark-Outline.woff') format('woff'),
+       url('/path-to/NationalPark-Outline.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'NationalPark-Outline', sans-serif;
+}

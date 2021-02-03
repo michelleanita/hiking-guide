@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'NationalPark-Thin';
+  src: url('/path-to/NationalPark-Thin.woff2') format('woff2'),
+       url('/path-to/NationalPark-Thin.woff') format('woff'),
+       url('/path-to/NationalPark-Thin.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'NationalPark-Thin', sans-serif;
+}
