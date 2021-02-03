@@ -10,7 +10,6 @@
        url('/fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'),
        url('/fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
 }
-
 .main {
   width: 75%;
   margin-top: 2em;
@@ -19,66 +18,67 @@
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	padding-bottom: 20px;
 }
-.orbit-container {
-	max-width: 1200px;
-	max-height: 650px;
+.callout.primary {
+    background-image: url("../images/topo-bg2.png");
+	background-repeat: repeat-x;
 }
-
 .menu {
 	font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	color: #22506A;
 }
 .menu-text {
 	letter-spacing: 4px;
 	font-size: 1.5em;
 }
-
-
-
-
+.orbit-container {
+	max-width: 1200px;
+	max-height: 650px;
+}
 .lnt {
 	padding: 36px;
-}
-.lnt-subhead {
-font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	letter-spacing: 1px;
+		column-count: 2;
+	max-height: 650px;
 }
 .lnt-head {
 	font-size: 2em;
 	column-span: all;
 }
+.lnt-subhead {
+font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 1px;
+}
 .lnt-list {
 	list-style: disc;
 }
-.lnt {
-	column-count: 2;
-	max-height: 650px;
-}
-
-
-
 a:link, a:visited {
-	color: #24656F;
+	color: #7D7F24;
 }
 a:hover, a:active, a:focus {
-	color: #FFBDFF;
+	color: #22506A;
 	cursor: crosshair;
 }
-
-
-
-h1, h2, h3 {
-	font-family: 'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+h1 {
+font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 4em;
+	color: #000000;
 }
-
+h2, h3 {
+font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+font-size: 2em;
+letter-spacing: 1px;
+line-height: 1.25em;
+color: #22506A;
+}
 h4 {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 2em;
 	text-transform: uppercase;
 	letter-spacing: 0;
 }
-
 h5 {
 font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1em;
@@ -87,10 +87,141 @@ p{
 	max-width: 1200px;
 }
 
-
+#greeting {
+	color: #000;
+}
+#sub2{
+	color: #7D7F24;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size:2.5em;
+}
+#sub1{
+	color: #22506A;
+}
 #essentials {
 	max-width: 1200px;
 }
+
+#navi-text, #navi-bg {
+  display: none;
+}
+
+
+#hiker:hover #intro-text {
+	display: inherit;
+}
+.navi:hover #navi-text {
+  display: inherit;
+}
+.navi:hover #navi-bg {
+  display: inherit;
+}
+
+
+#aid-text, #aid-bg {
+  display: none;
+}
+.aid:hover #aid-text {
+  display: inherit;
+}
+.aid:hover #aid-bg {
+  display: inherit;
+}
+
+
+#tool-text, #tool-bg {
+  display: none;
+}
+.tools:hover #tool-text {
+	display: inherit;
+}
+.tools:hover #tool-bg {
+	display: inherit;
+}
+
+
+#food-text, #food-bg {
+  display: none;
+}
+.food:hover #food-text {
+	display: inherit;
+}
+.food:hover #food-bg {
+	display: inherit;
+}
+
+
+#fire-text, #fire-bg {
+  display: none;
+}
+.fire:hover #fire-text {
+	display: inherit;
+}
+.fire:hover #fire-bg {
+	display: inherit;
+}
+
+
+#water-text, #water-bg {
+  display: none;
+}
+.water:hover #water-text {
+	display: inherit;
+}
+.water:hover #water-bg {
+	display: inherit;
+}
+
+
+#tent-text, #tent-bg {
+  display: none;
+}
+.tent:hover #tent-text {
+	display: inherit;
+}
+.tent:hover #tent-bg {
+	display: inherit;
+}
+
+
+
+#cloth-text, #cloth-bg {
+  display: none;
+}
+.cloth:hover #cloth-text {
+	display: inherit;
+}
+.cloth:hover #cloth-bg {
+	display: inherit;
+}
+
+
+
+#light-text, #light-bg {
+  display: none;
+}
+.light:hover #light-text {
+	display: inherit;
+}
+.light:hover #light-bg {
+	display: inherit;
+}
+
+
+
+#sun-text, #sun-bg {
+  display: none;
+}
+.sun:hover #sun-text {
+	display: inherit;
+}
+.sun:hover #sun-bg {
+	display: inherit;
+}
+
+
+
 .st0{opacity:0.5;fill:#D3DCE1;}
 		.st1{fill:#22506A;}
 		.st2{fill:#3875A1;}
@@ -243,125 +374,3 @@ p{
 		.st149{font-size:40px;}
 		.st150{font-size:50px; line-height: 52px;} 
 		.st151{font-size:20px;}
-
-
-
-
-#navi-text, #navi-bg {
-  display: none;
-}
-
-
-#hiker:hover #intro-text {
-	display: inherit;
-}
-.navi:hover #navi-text {
-  display: inherit;
-}
-.navi:hover #navi-bg {
-  display: inherit;
-}
-
-
-#aid-text, #aid-bg {
-  display: none;
-}
-.aid:hover #aid-text {
-  display: inherit;
-}
-.aid:hover #aid-bg {
-  display: inherit;
-}
-
-
-#tool-text, #tool-bg {
-  display: none;
-}
-.tools:hover #tool-text {
-	display: inherit;
-}
-.tools:hover #tool-bg {
-	display: inherit;
-}
-
-
-#food-text, #food-bg {
-  display: none;
-}
-.food:hover #food-text {
-	display: inherit;
-}
-.food:hover #food-bg {
-	display: inherit;
-}
-
-
-#fire-text, #fire-bg {
-  display: none;
-}
-.fire:hover #fire-text {
-	display: inherit;
-}
-.fire:hover #fire-bg {
-	display: inherit;
-}
-
-
-#water-text, #water-bg {
-  display: none;
-}
-.water:hover #water-text {
-	display: inherit;
-}
-.water:hover #water-bg {
-	display: inherit;
-}
-
-
-#tent-text, #tent-bg {
-  display: none;
-}
-.tent:hover #tent-text {
-	display: inherit;
-}
-.tent:hover #tent-bg {
-	display: inherit;
-}
-
-
-
-#cloth-text, #cloth-bg {
-  display: none;
-}
-.cloth:hover #cloth-text {
-	display: inherit;
-}
-.cloth:hover #cloth-bg {
-	display: inherit;
-}
-
-
-
-#light-text, #light-bg {
-  display: none;
-}
-.light:hover #light-text {
-	display: inherit;
-}
-.light:hover #light-bg {
-	display: inherit;
-}
-
-
-
-#sun-text, #sun-bg {
-  display: none;
-}
-.sun:hover #sun-text {
-	display: inherit;
-}
-.sun:hover #sun-bg {
-	display: inherit;
-}
-
-
