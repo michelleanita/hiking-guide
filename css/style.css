@@ -11,10 +11,10 @@
        url('../fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
 }
 body {
-	background-color: beige;
+	background-color: #C5B070;
 }
 .top-bar, .top-bar ul {
-	background-color: beige;
+	background-color: #C5B070;
 }
 .main {
   width: 75%;
@@ -32,7 +32,7 @@ body {
 	font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	color: #22506A;
+	color: #36748E;
 }
 .menu-text {
 	letter-spacing: 7px;
@@ -42,10 +42,10 @@ body {
  margin-top: 1rem;
 }
 a:link, a:visited {
-	color: #7D7F24;
+	color: #788C19;
 }
 a:hover, a:active, a:focus {
-	color: #22506A;
+	color: #36748E;
 	cursor: url('../images/cursor1.png'), auto;
 	
 }
@@ -54,14 +54,14 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 2.5em;
-	color: #000000;
+	color: #945A00;
 }
 h2, h3 {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 font-size: 2em;
 letter-spacing: 1px;
 line-height: 1.25em;
-color: #22506A;
+color: #36748E;
 }
 h4 {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -107,16 +107,16 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 	margin-bottom: .75rem;
 }
 #greeting {
-	color: #000;
+	color: #945A00;
 }
 #sub2{
-	color: #7D7F24;
+	color: #788C19;
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	font-size:2.5em;
 }
 #sub1{
-	color: #22506A;
+	color: #36748E;
 }
 #essentials {
 	max-width: 1200px;
@@ -245,7 +245,7 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 
 
 		.st0{fill:none;}
-		.st1{fill:#22506A;}
+		.st1{fill:#36748E;}
 		.st2{fill:#3875A1;}
 		.st3{fill:#333D38;}
 		.st4{fill:#B5A79C;}
@@ -256,7 +256,7 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 		.st9{fill:#474642;}
 		.st10{fill:#DDDDDD;}
 		.st11{fill:#FFBE82;}
-		.st12{fill:#7D7F24;}
+		.st12{fill:#788C19;}
 		.st13{opacity:0.2;}
 		.st14{fill:#FFF9C5;}
 		.st15{fill:#965C30;}
@@ -309,7 +309,7 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 		.st62{fill:#574748;}
 		.st63{fill:#DDD9D9;}
 		.st64{fill:#BEDB83;}
-		.st65{fill:#22506A;}
+		.st65{fill:#36748E;}
 		.st66{font-family:'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
 		.st67{font-size:48px;}
 		.st68{letter-spacing:4px;}
