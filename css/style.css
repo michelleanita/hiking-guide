@@ -119,66 +119,211 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 #sub1{
 	color: #36748E;
 }
-#essentials {
-	max-width: 1200px;
-}
 
-#navi-text, #navi-bg {
-  display: none;
-}
+
 .callout {
 	    background-image: url("../images/topo-bg2.png");
 	background-repeat: repeat-x;
 }
 
-#hiker:hover #intro-text {
+
+#essentials {
+	max-width: 1200px;
+}
+
+.st0{fill:#1B3A47;}
+	.st1{fill:#36748E;}
+	.st2{fill:#333D38;}
+	.st3{fill:#B5A79C;}
+	.st4{fill:#C1B1A3;}
+	.st5{fill:#CCBEB0;}
+	.st6{fill:#D9C9B9;}
+	.st7{opacity:0.2;fill:#020101;enable-background:new    ;}
+	.st8{fill:#474642;}
+	.st9{fill:#DDDDDD;}
+	.st10{fill:#FFBE82;}
+	.st11{fill:#5A6913;}
+	.st12{opacity:0.2;enable-background:new    ;}
+	.st13{fill:#4A2D00;}
+	.st14{fill:#BEC891;}
+	.st15{fill:#965C30;}
+	.st16{fill:#788C19;}
+	.st17{fill:#9D6232;}
+	.st18{fill:#F4AE7A;}
+	.st19{fill:#563322;}
+	.st20{fill:#474747;}
+	.st21{fill:#5E90A5;}
+	.st22{fill:#515151;}
+	.st23{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
+	.st24{fill:#F79F87;}
+	.st25{fill:#AD3E44;}
+	.st26{fill:#4F2910;}
+	.st27{fill:#AAA7A5;}
+	.st28{fill:#FFFFFF;}
+	.st29{fill:#BAA794;}
+	.st30{fill:#3E2D35;}
+	.st31{fill:none;}
+	.st32{font-family:'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+	.st33{font-size:40px;}
+	.st34{font-size:56px;}
+	.st35{font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+	.st36{font-size:20px; letter-spacing: 1px;}
+	.st37{fill:#C8C1C7;}
+	.st38{fill:#7A9349;}
+	.st39{fill:#657A36;}
+	.st40{fill:#CE8839;}
+	.st41{fill:#B77431;}
+	.st42{fill:#839E56;}
+	.st43{fill:#718743;}
+	.st44{fill:#A8C660;}
+	.st45{fill:#ADD159;}
+	.st46{fill:#CCDF78;}
+	.st47{fill:#E5EA89;}
+	.st48{fill:#91BAE3;}
+	.st49{fill:#76AADB;}
+	.st50{fill:#4AB5E7;}
+	.st51{fill:#FEE576;}
+	.st52{fill:#DEA662;}
+	.st53{fill:#8E7D7D;}
+	.st54{fill:#716767;}
+	.st55{fill:#615151;}
+	.st56{fill:#968C87;}
+	.st57{fill:#93A347;}
+	.st58{fill:#9F9595;}
+	.st59{fill:#C84C00;}
+	.st60{fill:#F4AE0E;}
+	.st61{fill:#695E5F;}
+	.st62{fill:#7F7474;}
+	.st63{fill:#CEC4C4;}
+	.st64{fill:#574748;}
+	.st65{fill:#DDD9D9;}
+	.st66{fill:#BEDB83;}
+	.st67{font-size:48px;}
+	.st68{letter-spacing:1px; text-transform: uppercase;}
+	.st69{font-size:20px;}
+	.st70{font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+	.st71{fill:#559DD2;}
+	.st72{fill:#4382B8;}
+	.st73{fill:#B9D9F2;}
+	.st74{fill:#318FC9;}
+	.st75{fill:#79B0DF;}
+	.st76{fill:#BCB5B5;}
+	.st77{fill:#945A00;}
+	.st78{fill:#BA955C;}
+	.st79{fill:#963900;}
+	.st80{fill:#D37033;}
+	.st81{fill:#F6C163;}
+	.st82{fill:#EABC62;}
+	.st83{fill:#B7B3B3;}
+	.st84{fill:#ECB458;}
+	.st85{fill:#DEA04F;}
+	.st86{fill:#FFDE9C;}
+	.st87{fill:#F57F20;}
+	.st88{fill:#F7901E;}
+	.st89{fill:#DD8C3A;}
+	.st90{fill:#C57533;}
+	.st91{fill:#FAA32F;}
+	.st92{fill:#FDB81A;}
+	.st93{fill:#444F0E;}
+	.st94{fill:#2D350A;}
+	.st95{fill:#9BC8EB;}
+	.st96{fill:#D7EEFB;}
+	.st97{fill:#C3DFF4;}
+	.st98{fill:#C6762D;}
+	.st99{fill:#FEDC50;}
+	.st100{fill:#BF7132;}
+	.st101{fill:#FEEA98;}
+	.st102{fill:#F9A51B;}
+	.st103{fill:#F39220;}
+	.st104{fill:#A8A7A7;}
+	.st105{fill:#FFD628;}
+	.st106{fill:#F5F5F5;}
+	.st107{fill:#29576B;}
+	.st108{fill:#4F4245;}
+	.st109{fill:#E5E5E5;}
+	.st110{fill:#473B3E;}
+	.st111{fill:#6A5F60;}
+	.st112{fill:#403538;}
+	.st113{fill:#5F5556;}
+	.st114{fill:#756266;}
+	.st115{fill:#8F7C80;}
+	.st116{fill:#F2F2F3;}
+	.st117{fill:#E22D2F;}
+	.st118{fill:#47403D;}
+	.st119{fill:#F6BE3E;}
+	.st120{fill:#FAD88B;}
+	.st121{fill:#EDB280;}
+	.st122{fill:#7D7272;}
+	.st123{fill:#FFF6C7;}
+	.st124{fill:#FEE05F;}
+	.st125{fill:#ADBF60;}
+	.st126{fill:#CCCCCB;}
+	.st127{fill:#FAB61B;}
+	.st128{fill:#35302E;}
+	.st129{fill:#453E3C;}
+	.st130{fill:#EF4B4D;}
+	.st131{fill:#E34648;}
+	.st132{fill:#EE3133;}
+	.st133{fill:#F1F0F0;}
+	.st134{fill:#E14648;}
+	.st135{fill:#E4E4E4;}
+	.st136{fill:#D64243;}
+	.st137{fill:#E02C2E;}
+
+
+#hiker:hover #introduction {
 	display: inherit;
 }
-.navi:hover #navi-text {
-  display: inherit;
-}
-.navi:hover #navi-bg {
-  display: inherit;
-}
 
 
-#aid-text, #aid-bg {
+#navi-info, #navi-bg {
   display: none;
 }
-.aid:hover #aid-text {
+.navigation:hover #navi-info {
   display: inherit;
 }
-.aid:hover #aid-bg {
+.navigation:hover #navi-bg {
   display: inherit;
 }
 
 
-#tool-text, #tool-bg {
+#aid-info, #aid-bg {
   display: none;
 }
-.tools:hover #tool-text {
-	display: inherit;
+.first-aid:hover #aid-info {
+  display: inherit;
 }
-.tools:hover #tool-bg {
-	display: inherit;
+.first-aid:hover #aid-bg {
+  display: inherit;
 }
 
 
-#food-text, #food-bg {
+#tool-info, #tool-bg {
   display: none;
 }
-.food:hover #food-text {
+.tool-kit:hover #tool-info {
 	display: inherit;
 }
-.food:hover #food-bg {
+.tool-kit:hover #tool-bg {
 	display: inherit;
 }
 
 
-#fire-text, #fire-bg {
+#food-info, #food-bg {
   display: none;
 }
-.fire:hover #fire-text {
+.nutrition:hover #food-info {
+	display: inherit;
+}
+.nutrition:hover #food-bg {
+	display: inherit;
+}
+
+
+#fire-info, #fire-bg {
+  display: none;
+}
+.fire:hover #fire-info {
 	display: inherit;
 }
 .fire:hover #fire-bg {
@@ -186,214 +331,59 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 }
 
 
-#water-text, #water-bg {
+#water-info, #water-bg {
   display: none;
 }
-.water:hover #water-text {
+.hydration:hover #water-info {
 	display: inherit;
 }
-.water:hover #water-bg {
+.hydration:hover #water-bg {
 	display: inherit;
 }
 
 
-#tent-text, #tent-bg {
+#tent-info, #tent-bg {
   display: none;
 }
-.tent:hover #tent-text {
+.shelter:hover #tent-info {
 	display: inherit;
 }
-.tent:hover #tent-bg {
+.shelter:hover #tent-bg {
 	display: inherit;
 }
 
 
 
-#cloth-text, #cloth-bg {
+#cloth-info, #cloth-bg {
   display: none;
 }
-.cloth:hover #cloth-text {
+.insulation:hover #cloth-info {
 	display: inherit;
 }
-.cloth:hover #cloth-bg {
+.insulation:hover #cloth-bg {
 	display: inherit;
 }
 
 
 
-#light-text, #light-bg {
+#light-info, #light-bg {
   display: none;
 }
-.light:hover #light-text {
+.illumination:hover #light-info {
 	display: inherit;
 }
-.light:hover #light-bg {
+.illumination:hover #light-bg {
 	display: inherit;
 }
 
 
 
-#sun-text, #sun-bg {
+#sun-info, #sun-bg {
   display: none;
 }
-.sun:hover #sun-text {
+.sun-protection:hover #sun-info {
 	display: inherit;
 }
-.sun:hover #sun-bg {
+.sun-protection:hover #sun-bg {
 	display: inherit;
 }
-
-
-
-		.st0{fill:none;}
-		.st1{fill:#36748E;}
-		.st2{fill:#3875A1;}
-		.st3{fill:#333D38;}
-		.st4{fill:#B5A79C;}
-		.st5{fill:#C1B1A3;}
-		.st6{fill:#CCBEB0;}
-		.st7{fill:#D9C9B9;}
-		.st8{opacity:0.2;fill:#020101;}
-		.st9{fill:#474642;}
-		.st10{fill:#DDDDDD;}
-		.st11{fill:#FFBE82;}
-		.st12{fill:#788C19;}
-		.st13{opacity:0.2;}
-		.st14{fill:#FFF9C5;}
-		.st15{fill:#965C30;}
-		.st16{fill:#889029;}
-		.st17{fill:#58442C;}
-		.st18{fill:#848426;}
-		.st19{fill:#9D6232;}
-		.st20{fill:#F4AE7A;}
-		.st21{fill:#878925;}
-		.st22{fill:#563322;}
-		.st23{fill:#474747;}
-		.st24{fill:#1E828C;}
-		.st25{fill:#515151;}
-		.st26{opacity:0.2;fill:#FFFFFF;}
-		.st27{fill:#F79F87;}
-		.st28{fill:#AD3E44;}
-		.st29{fill:#4F2910;}
-		.st30{fill:#AAA7A5;}
-		.st31{fill:#FFFFFF;}
-		.st32{fill:#BAA794;}
-		.st33{fill:#30373D;}
-		.st34{fill:#A7B9C3;}
-		.st35{fill:#7A9349;}
-		.st36{fill:#657A36;}
-		.st37{fill:#CE8839;}
-		.st38{fill:#B77431;}
-		.st39{fill:#839E56;}
-		.st40{fill:#718743;}
-		.st41{fill:#A8C660;}
-		.st42{fill:#ADD159;}
-		.st43{fill:#CCDF78;}
-		.st44{fill:#E5EA89;}
-		.st45{fill:#91BAE3;}
-		.st46{fill:#76AADB;}
-		.st47{fill:#4AB5E7;}
-		.st48{fill:#FEE576;}
-		.st49{fill:#DEA662;}
-		.st50{fill:#8E7D7D;}
-		.st51{fill:#716767;}
-		.st52{fill:#615151;}
-		.st53{fill:#968C87;}
-		.st54{fill:#9F9595;}
-		.st55{fill:#EE3331;}
-		.st56{fill:#389BD6;}
-		.st57{fill:#FFCE07;}
-		.st58{fill:#695E5F;}
-		.st59{fill:#7F7474;}
-		.st60{fill:#FCBE11;}
-		.st61{fill:#CEC4C4;}
-		.st62{fill:#574748;}
-		.st63{fill:#DDD9D9;}
-		.st64{fill:#BEDB83;}
-		.st65{fill:#36748E;}
-		.st66{font-family:'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
-		.st67{font-size:48px;}
-		.st68{letter-spacing:4px;}
-		.st69{font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
-		.st70{font-size:20px;}
-		.st71{letter-spacing:1px; text-transform: uppercase;}
-		.st72{font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
-		.st73{fill:#559DD2;}
-		.st74{fill:#4382B8;}
-		.st75{fill:#B9D9F2;}
-		.st76{fill:#318FC9;}
-		.st77{fill:#79B0DF;}
-		.st78{fill:#BCB5B5;}
-		.st79{fill:#B05A28;}
-		.st80{fill:#C97954;}
-		.st81{fill:#BC6C29;}
-		.st82{fill:#EF3B39;}
-		.st83{fill:#F04B4C;}
-		.st84{fill:#F26557;}
-		.st85{fill:#F6C163;}
-		.st86{fill:#EABC62;}
-		.st87{fill:#B7B3B3;}
-		.st88{fill:#ECB458;}
-		.st89{fill:#DEA04F;}
-		.st90{fill:#FFDE9C;}
-		.st91{fill:#F57F20;}
-		.st92{fill:#F7901E;}
-		.st93{fill:#DD8C3A;}
-		.st94{fill:#C57533;}
-		.st95{fill:#FAA32F;}
-		.st96{fill:#FDB81A;}
-		.st97{fill:#BCCC9A;}
-		.st98{fill:#50592F;}
-		.st99{fill:#9BC8EB;}
-		.st100{fill:#D7EEFB;}
-		.st101{fill:#C3DFF4;}
-		.st102{fill:#C6762D;}
-		.st103{fill:#FEDC50;}
-		.st104{fill:#BF7132;}
-		.st105{fill:#FEEA98;}
-		.st106{fill:#F9A51B;}
-		.st107{fill:#F39220;}
-		.st108{fill:#A8A7A7;}
-		.st109{fill:#FFD628;}
-		.st110{fill:#849F57;}
-		.st111{fill:#F5F5F5;}
-		.st112{fill:#7F9954;}
-		.st113{fill:#A4B978;}
-		.st114{fill:#657B37;}
-		.st115{fill:#FCCF0B;}
-		.st116{fill:#4F4245;}
-		.st117{fill:#E5E5E5;}
-		.st118{fill:#473B3E;}
-		.st119{fill:#6A5F60;}
-		.st120{fill:#403538;}
-		.st121{fill:#5F5556;}
-		.st122{fill:#756266;}
-		.st123{fill:#8F7C80;}
-		.st124{fill:#EE3133;}
-		.st125{fill:#D62B2C;}
-		.st126{fill:#E22D2F;}
-		.st127{fill:#F2F2F3;}
-		.st128{fill:#EF4B4D;}
-		.st129{fill:#47403D;}
-		.st130{fill:#F1C717;}
-		.st131{fill:#E8D56E;}
-		.st132{fill:#EDB280;}
-		.st133{fill:#7D7272;}
-		.st134{fill:#FFF6C7;}
-		.st135{fill:#FEE05F;}
-		.st136{fill:#ADBF60;}
-		.st137{fill:#CCCCCB;}
-		.st138{fill:#FAB61B;}
-		.st139{fill:#35302E;}
-		.st140{fill:#453E3C;}
-		.st141{fill:#FCDE4E;}
-		.st142{fill:#E34648;}
-		.st143{fill:#F0D349;}
-		.st144{fill:#F1F0F0;}
-		.st145{fill:#E14648;}
-		.st146{fill:#E4E4E4;}
-		.st147{fill:#D64243;}
-		.st148{fill:#E02C2E;}
-		.st149{font-size:40px;}
-		.st150{font-size:50px; line-height: 52px;} 
-		.st151{font-size:20px;}
