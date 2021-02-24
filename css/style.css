@@ -1,96 +1,22 @@
 @font-face {
-  font-family: 'NationalPark-Heavy';
-  src: url('../fonts/NationalPark-Heavy/NationalPark-Heavy.woff2') format('woff2'),
-       url('../fonts/NationalPark-Heavy/NationalPark-Heavy.woff') format('woff'),
-       url('../fonts/NationalPark-Heavy/NationalPark-Heavy.ttf')  format('truetype');
+	font-family: 'NationalPark-Heavy';
+	src: url('../fonts/NationalPark-Heavy/NationalPark-Heavy.woff2') format('woff2'), url('../fonts/NationalPark-Heavy/NationalPark-Heavy.woff') format('woff'), url('../fonts/NationalPark-Heavy/NationalPark-Heavy.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'NationalPark-Regular';
-  src: url('../fonts/NationalPark-Regular/NationalPark-Regular.woff2') format('woff2'),
-       url('../fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'),
-       url('../fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
+	font-family: 'NationalPark-Regular';
+	src: url('../fonts/NationalPark-Regular/NationalPark-Regular.woff2') format('woff2'), url('../fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'), url('../fonts/NationalPark-Regular/NationalPark-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'NationalPark-Thin';
-  src: url('../fonts/NationalPark-Thin/NationalPark-Thin.woff2') format('woff2'),
-       url('../fonts/NationalPark-Thin/NationalPark-Thin.woff') format('woff'),
-       url('../fonts/NationalPark-Thin/NationalPark-Thin.ttf')  format('truetype');
+	font-family: 'NationalPark-Thin';
+	src: url('../fonts/NationalPark-Thin/NationalPark-Thin.woff2') format('woff2'), url('../fonts/NationalPark-Thin/NationalPark-Thin.woff') format('woff'), url('../fonts/NationalPark-Thin/NationalPark-Thin.ttf') format('truetype');
 }
+
+
 
 body {
 	background-image: url("../images/topo-bg2.png");
 	background-repeat: repeat;
 }
-.main {
-  width: 75%;
-	margin: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
-font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	background-color: rgba(197,176,112,0.75);
-	padding: 50px;
-border-radius: 15px;
-color: #523c50;
-font-size: 1em;
-line-height: 1.1em;
-}
-
-
-.top-bar, .top-bar ul {
-	background-color: #C5B070;
-	border-radius: 0px 0px 15px 15px;
-}
-footer {
-		background-color: #C5B070;
-	border-radius: 15px 15px 0px 0px;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	margin-top: 100px;
-}
-#greeting {
-	color: #523c50;
-	text-align: left;
-	font-size: 1.25em;
-	line-height: 1.3em;
-font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-text-transform: none;
-padding-bottom: 10px;
-padding-top: 10px;
-}
-
-#sub2{
-	color: #cf4919;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size:1.5em;
-		text-align: left;
-}
-#sub1{
-	color: #22506a;
-	font-size: 1.25em;
-	text-align: left;
-}
-
-
-
-.menu {
-	font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: #36748E;
-}
-
-.menu-text {
-	letter-spacing: 7px;
-	font-size: 2em;
-}
-.top-bar-right {
- margin-top: 1rem;
-}
-
-
-
-
 a:link, a:visited {
 	color: #22506a;
 }
@@ -98,84 +24,136 @@ a:hover, a:active, a:focus {
 	color: #cf4919;
 	cursor: url('../images/cursor1.png'), auto;
 }
-
-
-
-#head {
-	color: #523c50;
-}
 h1 {
-font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-size: 1.75em;
 	color: #cf4919;
-		text-align: left;
+	text-align: left;
 }
 h2, h3 {
-font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-font-size: 2em;
-letter-spacing: 1px;
-line-height: 1em;
-color: #22506a;
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2.25em;
+	letter-spacing: 2px;
+	line-height: 1em;
+	color: #22506a;
 	text-transform: uppercase;
 }
 h4 {
-font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 2em;
 	text-transform: uppercase;
 	letter-spacing: 0;
 }
 h5 {
-font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1em;
 	color: #523C50;
-	
 }
-p{
+p {
 	max-width: 1200px;
-	font-size: 1.1em;
-	line-height: 1.25em;
+	font-size: 1.25em;
+	line-height: 1.3em;
 }
 
 
+/*  Navigation Bar  */
+#head {
+	color: #523c50;
+}
+.menu {
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #36748E;
+}
+.menu-text {
+	letter-spacing: 4px;
+	font-size: 2em;
+}
+.top-bar-right {
+	margin-top: 1rem;
+	text-align: left;
+}
+.top-bar, .top-bar ul {
+	background-color: #C5B070;
+	border-radius: 0px 0px 15px 15px;
+}
+
+/*  Introduction  */
+.main {
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: rgba(197, 176, 112, 0.75);
+	padding: 50px;
+	border-radius: 15px;
+	color: #523c50;
+	font-size: 1em;
+	line-height: 1.1em;
+}
+#greeting {
+	color: #523c50;
+	text-align: left;
+	font-size: 1.25em;
+	line-height: 1.3em;
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-transform: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	letter-spacing: 0px;
+}
+#sub1 {
+	color: #22506a;
+	font-size: 1.25em;
+	text-align: left;
+}
+#sub2 {
+	color: #cf4919;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1.5em;
+	text-align: left;
+}
 
 
+/*  Leave No Trace  */
 .orbit-container {
 	max-width: 1200px;
+	max-height: 525px;
+	overflow: scroll;
 }
 .orbit-bullets button {
-    width: 1.2rem;
-    height: 1.2rem;
-    margin: .1rem;
-    background-color: #523c50;
-    border-radius: 50%;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: .1rem;
+	background-color: #523c50;
+	border-radius: 50%;
 }
 .orbit-caption, .orbit-next, .orbit-previous {
-    position: absolute;
-    padding: 1rem;
-    color: #523c50;
+	position: absolute;
+	padding: 1rem;
+	color: #523c50;
 }
-
-
-
-
 .lnt {
-	padding: 36px;
-		column-count: 2;
+	padding: 50px;
+	column-count: 2;
 	column-gap: 2em;
 	column-rule: solid 2px;
-	max-height: 650px;
-		font-size: .9em;
+	font-size: .9em;
 }
 .lnt-head {
 	font-size: 1.6em;
 	column-span: all;
 	margin-bottom: 1.5rem;
 	color: #cf4919;
+	letter-spacing: 2px;
 }
 .lnt-subhead {
-font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	letter-spacing: 1px;
 	font-size: 1.4em;
 	margin-bottom: .5rem;
@@ -186,184 +164,466 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .lnt-list {
 	list-style: disc;
 	margin-bottom: 1rem;
+	font-size: 1.25em;
+	line-height: 1.3em;
 }
 .lnt-body {
 	margin-bottom: .75rem;
 }
 
+
+/*  10 Essentials  */
 #essentials {
 	max-width: 1200px;
 }
+.st0 {
+	fill: #1B3A47;
+}
+.st1 {
+	fill: #36748E;
+}
+.st2 {
+	fill: #333D38;
+}
+.st3 {
+	fill: #B5A79C;
+}
+.st4 {
+	fill: #C1B1A3;
+}
+.st5 {
+	fill: #CCBEB0;
+}
+.st6 {
+	fill: #D9C9B9;
+}
+.st7 {
+	opacity: 0.2;
+	fill: #020101;
+	enable-background: new;
+}
+.st8 {
+	fill: #474642;
+}
+.st9 {
+	fill: #DDDDDD;
+}
+.st10 {
+	fill: #FFBE82;
+}
+.st11 {
+	fill: #5A6913;
+}
+.st12 {
+	opacity: 0.2;
+	enable-background: new;
+}
+.st13 {
+	fill: #4A2D00;
+}
+.st14 {
+	fill: #BEC891;
+}
+.st15 {
+	fill: #965C30;
+}
+.st16 {
+	fill: #788C19;
+}
+.st17 {
+	fill: #9D6232;
+}
+.st18 {
+	fill: #F4AE7A;
+}
+.st19 {
+	fill: #563322;
+}
+.st20 {
+	fill: #474747;
+}
+.st21 {
+	fill: #5E90A5;
+}
+.st22 {
+	fill: #515151;
+}
+.st23 {
+	opacity: 0.2;
+	fill: #FFFFFF;
+	enable-background: new;
+}
+.st24 {
+	fill: #F79F87;
+}
+.st25 {
+	fill: #AD3E44;
+}
+.st26 {
+	fill: #4F2910;
+}
+.st27 {
+	fill: #AAA7A5;
+}
+.st28 {
+	fill: #FFFFFF;
+}
+.st29 {
+	fill: #BAA794;
+}
+.st30 {
+	fill: #3E2D35;
+}
+.st31 {
+	fill: none;
+}
+.st32 {
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.st33 {
+	font-size: 34px;
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 
-.st0{fill:#1B3A47;}
-	.st1{fill:#36748E;}
-	.st2{fill:#333D38;}
-	.st3{fill:#B5A79C;}
-	.st4{fill:#C1B1A3;}
-	.st5{fill:#CCBEB0;}
-	.st6{fill:#D9C9B9;}
-	.st7{opacity:0.2;fill:#020101;enable-background:new    ;}
-	.st8{fill:#474642;}
-	.st9{fill:#DDDDDD;}
-	.st10{fill:#FFBE82;}
-	.st11{fill:#5A6913;}
-	.st12{opacity:0.2;enable-background:new    ;}
-	.st13{fill:#4A2D00;}
-	.st14{fill:#BEC891;}
-	.st15{fill:#965C30;}
-	.st16{fill:#788C19;}
-	.st17{fill:#9D6232;}
-	.st18{fill:#F4AE7A;}
-	.st19{fill:#563322;}
-	.st20{fill:#474747;}
-	.st21{fill:#5E90A5;}
-	.st22{fill:#515151;}
-	.st23{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
-	.st24{fill:#F79F87;}
-	.st25{fill:#AD3E44;}
-	.st26{fill:#4F2910;}
-	.st27{fill:#AAA7A5;}
-	.st28{fill:#FFFFFF;}
-	.st29{fill:#BAA794;}
-	.st30{fill:#3E2D35;}
-	.st31{fill:none;}
-	.st32{font-family:'fairplex-narrow', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
-	.st33{font-size:40px;}
-	.st34{font-size:56px;}
-	.st35{font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
-	.st36{font-size:20px; letter-spacing: 1px;}
-	.st37{fill:#C8C1C7;}
-	.st38{fill:#7A9349;}
-	.st39{fill:#657A36;}
-	.st40{fill:#CE8839;}
-	.st41{fill:#B77431;}
-	.st42{fill:#839E56;}
-	.st43{fill:#718743;}
-	.st44{fill:#A8C660;}
-	.st45{fill:#ADD159;}
-	.st46{fill:#CCDF78;}
-	.st47{fill:#E5EA89;}
-	.st48{fill:#91BAE3;}
-	.st49{fill:#76AADB;}
-	.st50{fill:#4AB5E7;}
-	.st51{fill:#FEE576;}
-	.st52{fill:#DEA662;}
-	.st53{fill:#8E7D7D;}
-	.st54{fill:#716767;}
-	.st55{fill:#615151;}
-	.st56{fill:#968C87;}
-	.st57{fill:#93A347;}
-	.st58{fill:#9F9595;}
-	.st59{fill:#C84C00;}
-	.st60{fill:#F4AE0E;}
-	.st61{fill:#695E5F;}
-	.st62{fill:#7F7474;}
-	.st63{fill:#CEC4C4;}
-	.st64{fill:#574748;}
-	.st65{fill:#DDD9D9;}
-	.st66{fill:#BEDB83;}
-	.st67{font-size:48px;}
-	.st68{letter-spacing:1px; text-transform: uppercase;}
-	.st69{font-size:20px;}
-	.st70{font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
-	.st71{fill:#559DD2;}
-	.st72{fill:#4382B8;}
-	.st73{fill:#B9D9F2;}
-	.st74{fill:#318FC9;}
-	.st75{fill:#79B0DF;}
-	.st76{fill:#BCB5B5;}
-	.st77{fill:#945A00;}
-	.st78{fill:#BA955C;}
-	.st79{fill:#963900;}
-	.st80{fill:#D37033;}
-	.st81{fill:#F6C163;}
-	.st82{fill:#EABC62;}
-	.st83{fill:#B7B3B3;}
-	.st84{fill:#ECB458;}
-	.st85{fill:#DEA04F;}
-	.st86{fill:#FFDE9C;}
-	.st87{fill:#F57F20;}
-	.st88{fill:#F7901E;}
-	.st89{fill:#DD8C3A;}
-	.st90{fill:#C57533;}
-	.st91{fill:#FAA32F;}
-	.st92{fill:#FDB81A;}
-	.st93{fill:#444F0E;}
-	.st94{fill:#2D350A;}
-	.st95{fill:#9BC8EB;}
-	.st96{fill:#D7EEFB;}
-	.st97{fill:#C3DFF4;}
-	.st98{fill:#C6762D;}
-	.st99{fill:#FEDC50;}
-	.st100{fill:#BF7132;}
-	.st101{fill:#FEEA98;}
-	.st102{fill:#F9A51B;}
-	.st103{fill:#F39220;}
-	.st104{fill:#A8A7A7;}
-	.st105{fill:#FFD628;}
-	.st106{fill:#F5F5F5;}
-	.st107{fill:#29576B;}
-	.st108{fill:#4F4245;}
-	.st109{fill:#E5E5E5;}
-	.st110{fill:#473B3E;}
-	.st111{fill:#6A5F60;}
-	.st112{fill:#403538;}
-	.st113{fill:#5F5556;}
-	.st114{fill:#756266;}
-	.st115{fill:#8F7C80;}
-	.st116{fill:#F2F2F3;}
-	.st117{fill:#E22D2F;}
-	.st118{fill:#47403D;}
-	.st119{fill:#F6BE3E;}
-	.st120{fill:#FAD88B;}
-	.st121{fill:#EDB280;}
-	.st122{fill:#7D7272;}
-	.st123{fill:#FFF6C7;}
-	.st124{fill:#FEE05F;}
-	.st125{fill:#ADBF60;}
-	.st126{fill:#CCCCCB;}
-	.st127{fill:#FAB61B;}
-	.st128{fill:#35302E;}
-	.st129{fill:#453E3C;}
-	.st130{fill:#cf4919;}
-	.st131{fill:#E34648;}
-	.st132{fill:#EE3133;}
-	.st133{fill:#F1F0F0;}
-	.st134{fill:#E14648;}
-	.st135{fill:#E4E4E4;}
-	.st136{fill:#D64243;}
-	.st137{fill:#E02C2E;}
-
-
+}
+.st34 {
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.st35 {
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.st36 {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.st37 {
+	fill: #C8C1C7;
+}
+.st38 {
+	fill: #7A9349;
+}
+.st39 {
+	fill: #657A36;
+}
+.st40 {
+	fill: #CE8839;
+}
+.st41 {
+	fill: #B77431;
+}
+.st42 {
+	fill: #839E56;
+}
+.st43 {
+	fill: #718743;
+}
+.st44 {
+	fill: #A8C660;
+}
+.st45 {
+	fill: #ADD159;
+}
+.st46 {
+	fill: #CCDF78;
+}
+.st47 {
+	fill: #E5EA89;
+}
+.st48 {
+	fill: #91BAE3;
+}
+.st49 {
+	fill: #76AADB;
+}
+.st50 {
+	fill: #4AB5E7;
+}
+.st51 {
+	fill: #FEE576;
+}
+.st52 {
+	fill: #DEA662;
+}
+.st53 {
+	fill: #8E7D7D;
+}
+.st54 {
+	fill: #716767;
+}
+.st55 {
+	fill: #615151;
+}
+.st56 {
+	fill: #968C87;
+}
+.st57 {
+	fill: #93A347;
+}
+.st58 {
+	fill: #9F9595;
+}
+.st59 {
+	fill: #C84C00;
+}
+.st60 {
+	fill: #F4AE0E;
+}
+.st61 {
+	fill: #695E5F;
+}
+.st62 {
+	fill: #7F7474;
+}
+.st63 {
+	fill: #CEC4C4;
+}
+.st64 {
+	fill: #574748;
+}
+.st65 {
+	fill: #DDD9D9;
+}
+.st66 {
+	fill: #BEDB83;
+}
+.st67 {
+	font-size: 48px;
+}
+.st68 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.st69 {
+	font-size: 20px;
+}
+.st70 {
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.st71 {
+	fill: #559DD2;
+}
+.st72 {
+	fill: #4382B8;
+}
+.st73 {
+	fill: #B9D9F2;
+}
+.st74 {
+	fill: #318FC9;
+}
+.st75 {
+	fill: #79B0DF;
+}
+.st76 {
+	fill: #BCB5B5;
+}
+.st77 {
+	fill: #945A00;
+}
+.st78 {
+	fill: #BA955C;
+}
+.st79 {
+	fill: #963900;
+}
+.st80 {
+	fill: #D37033;
+}
+.st81 {
+	fill: #F6C163;
+}
+.st82 {
+	fill: #EABC62;
+}
+.st83 {
+	fill: #B7B3B3;
+}
+.st84 {
+	fill: #ECB458;
+}
+.st85 {
+	fill: #DEA04F;
+}
+.st86 {
+	fill: #FFDE9C;
+}
+.st87 {
+	fill: #F57F20;
+}
+.st88 {
+	fill: #F7901E;
+}
+.st89 {
+	fill: #DD8C3A;
+}
+.st90 {
+	fill: #C57533;
+}
+.st91 {
+	fill: #FAA32F;
+}
+.st92 {
+	fill: #FDB81A;
+}
+.st93 {
+	fill: #444F0E;
+}
+.st94 {
+	fill: #2D350A;
+}
+.st95 {
+	fill: #9BC8EB;
+}
+.st96 {
+	fill: #D7EEFB;
+}
+.st97 {
+	fill: #C3DFF4;
+}
+.st98 {
+	fill: #C6762D;
+}
+.st99 {
+	fill: #FEDC50;
+}
+.st100 {
+	fill: #BF7132;
+}
+.st101 {
+	fill: #FEEA98;
+}
+.st102 {
+	fill: #F9A51B;
+}
+.st103 {
+	fill: #F39220;
+}
+.st104 {
+	fill: #A8A7A7;
+}
+.st105 {
+	fill: #FFD628;
+}
+.st106 {
+	fill: #F5F5F5;
+}
+.st107 {
+	fill: #29576B;
+}
+.st108 {
+	fill: #4F4245;
+}
+.st109 {
+	fill: #E5E5E5;
+}
+.st110 {
+	fill: #473B3E;
+}
+.st111 {
+	fill: #6A5F60;
+}
+.st112 {
+	fill: #403538;
+}
+.st113 {
+	fill: #5F5556;
+}
+.st114 {
+	fill: #756266;
+}
+.st115 {
+	fill: #8F7C80;
+}
+.st116 {
+	fill: #F2F2F3;
+}
+.st117 {
+	fill: #E22D2F;
+}
+.st118 {
+	fill: #47403D;
+}
+.st119 {
+	fill: #F6BE3E;
+}
+.st120 {
+	fill: #FAD88B;
+}
+.st121 {
+	fill: #EDB280;
+}
+.st122 {
+	fill: #7D7272;
+}
+.st123 {
+	fill: #FFF6C7;
+}
+.st124 {
+	fill: #FEE05F;
+}
+.st125 {
+	fill: #ADBF60;
+}
+.st126 {
+	fill: #CCCCCB;
+}
+.st127 {
+	fill: #FAB61B;
+}
+.st128 {
+	fill: #35302E;
+}
+.st129 {
+	fill: #453E3C;
+}
+.st130 {
+	fill: #cf4919;
+}
+.st131 {
+	fill: #E34648;
+}
+.st132 {
+	fill: #EE3133;
+}
+.st133 {
+	fill: #F1F0F0;
+}
+.st134 {
+	fill: #E14648;
+}
+.st135 {
+	fill: #E4E4E4;
+}
+.st136 {
+	fill: #D64243;
+}
+.st137 {
+	fill: #E02C2E;
+}
 #hiker:hover #introduction {
 	display: inherit;
 }
-
-
 #navi-info, #navi-bg {
-  display: none;
+	display: none;
 }
 .navigation:hover #navi-info {
-  display: inherit;
+	display: inherit;
 }
 .navigation:hover #navi-bg {
-  display: inherit;
+	display: inherit;
 }
-
-
 #aid-info, #aid-bg {
-  display: none;
+	display: none;
 }
 .first-aid:hover #aid-info {
-  display: inherit;
+	display: inherit;
 }
 .first-aid:hover #aid-bg {
-  display: inherit;
+	display: inherit;
 }
-
-
 #tool-info, #tool-bg {
-  display: none;
+	display: none;
 }
 .tool-kit:hover #tool-info {
 	display: inherit;
@@ -371,10 +631,8 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .tool-kit:hover #tool-bg {
 	display: inherit;
 }
-
-
 #food-info, #food-bg {
-  display: none;
+	display: none;
 }
 .nutrition:hover #food-info {
 	display: inherit;
@@ -382,10 +640,8 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .nutrition:hover #food-bg {
 	display: inherit;
 }
-
-
 #fire-info, #fire-bg {
-  display: none;
+	display: none;
 }
 .fire:hover #fire-info {
 	display: inherit;
@@ -393,10 +649,8 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .fire:hover #fire-bg {
 	display: inherit;
 }
-
-
 #water-info, #water-bg {
-  display: none;
+	display: none;
 }
 .hydration:hover #water-info {
 	display: inherit;
@@ -404,10 +658,8 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .hydration:hover #water-bg {
 	display: inherit;
 }
-
-
 #tent-info, #tent-bg {
-  display: none;
+	display: none;
 }
 .shelter:hover #tent-info {
 	display: inherit;
@@ -415,11 +667,8 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .shelter:hover #tent-bg {
 	display: inherit;
 }
-
-
-
 #cloth-info, #cloth-bg {
-  display: none;
+	display: none;
 }
 .insulation:hover #cloth-info {
 	display: inherit;
@@ -427,11 +676,8 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .insulation:hover #cloth-bg {
 	display: inherit;
 }
-
-
-
 #light-info, #light-bg {
-  display: none;
+	display: none;
 }
 .illumination:hover #light-info {
 	display: inherit;
@@ -439,15 +685,22 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .illumination:hover #light-bg {
 	display: inherit;
 }
-
-
-
 #sun-info, #sun-bg {
-  display: none;
+	display: none;
 }
 .sun-protection:hover #sun-info {
 	display: inherit;
 }
 .sun-protection:hover #sun-bg {
 	display: inherit;
+}
+
+
+
+footer {
+	background-color: #C5B070;
+	border-radius: 15px 15px 0px 0px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-top: 100px;
 }
