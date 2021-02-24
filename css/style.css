@@ -10,30 +10,76 @@
        url('../fonts/NationalPark-Regular/NationalPark-Regular.woff') format('woff'),
        url('../fonts/NationalPark-Regular/NationalPark-Regular.ttf')  format('truetype');
 }
-body {
-	background-color: #C5B070;
+@font-face {
+  font-family: 'NationalPark-Thin';
+  src: url('../fonts/NationalPark-Thin/NationalPark-Thin.woff2') format('woff2'),
+       url('../fonts/NationalPark-Thin/NationalPark-Thin.woff') format('woff'),
+       url('../fonts/NationalPark-Thin/NationalPark-Thin.ttf')  format('truetype');
 }
-.top-bar, .top-bar ul {
-	background-color: #C5B070;
+
+body {
+	background-image: url("../images/topo-bg2.png");
+	background-repeat: repeat;
 }
 .main {
   width: 75%;
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	padding-bottom: 20px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: rgba(197,176,112,0.75);
+	padding: 50px;
+border-radius: 15px;
+color: #523c50;
+font-size: 1em;
+line-height: 1.1em;
 }
-.callout.primary {
-    background-image: url("../images/topo-bg2.png");
-	background-repeat: repeat-x;
+
+
+.top-bar, .top-bar ul {
+	background-color: #C5B070;
+	border-radius: 0px 0px 15px 15px;
 }
+footer {
+		background-color: #C5B070;
+	border-radius: 15px 15px 0px 0px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-top: 100px;
+}
+#greeting {
+	color: #523c50;
+	text-align: left;
+	font-size: 1.25em;
+	line-height: 1.3em;
+font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+text-transform: none;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+#sub2{
+	color: #cf4919;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size:1.5em;
+		text-align: left;
+}
+#sub1{
+	color: #22506a;
+	font-size: 1.25em;
+	text-align: left;
+}
+
+
+
 .menu {
 	font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: #36748E;
 }
+
 .menu-text {
 	letter-spacing: 7px;
 	font-size: 2em;
@@ -41,27 +87,37 @@ body {
 .top-bar-right {
  margin-top: 1rem;
 }
+
+
+
+
 a:link, a:visited {
-	color: #523c50;
+	color: #22506a;
 }
 a:hover, a:active, a:focus {
-	color: #36748E;
+	color: #cf4919;
 	cursor: url('../images/cursor1.png'), auto;
-	
+}
+
+
+
+#head {
+	color: #523c50;
 }
 h1 {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 2.5em;
-	color: #945A00;
+	font-size: 1.75em;
+	color: #cf4919;
+		text-align: left;
 }
 h2, h3 {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 font-size: 2em;
 letter-spacing: 1px;
-line-height: 1.25em;
-color: #36748E;
+line-height: 1em;
+color: #22506a;
 	text-transform: uppercase;
 }
 h4 {
@@ -73,11 +129,18 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 h5 {
 font-family:'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1em;
+	color: #523C50;
+	
 }
 p{
 	max-width: 1200px;
 	font-size: 1.1em;
+	line-height: 1.25em;
 }
+
+
+
+
 .orbit-container {
 	max-width: 1200px;
 }
@@ -85,14 +148,18 @@ p{
     width: 1.2rem;
     height: 1.2rem;
     margin: .1rem;
-    background-color: #36748E;
+    background-color: #523c50;
     border-radius: 50%;
 }
 .orbit-caption, .orbit-next, .orbit-previous {
     position: absolute;
     padding: 1rem;
-    color: #36748E;
+    color: #523c50;
 }
+
+
+
+
 .lnt {
 	padding: 36px;
 		column-count: 2;
@@ -102,15 +169,19 @@ p{
 		font-size: .9em;
 }
 .lnt-head {
-	font-size: 2em;
+	font-size: 1.6em;
 	column-span: all;
 	margin-bottom: 1.5rem;
+	color: #cf4919;
 }
 .lnt-subhead {
 font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	letter-spacing: 1px;
 	font-size: 1.4em;
 	margin-bottom: .5rem;
+	color: #8B5402;
+	text-transform: uppercase;
+	padding-top: .5rem;
 }
 .lnt-list {
 	list-style: disc;
@@ -119,25 +190,6 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 .lnt-body {
 	margin-bottom: .75rem;
 }
-#greeting {
-	color: #945A00;
-}
-#sub2{
-	color: #788C19;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	font-size:2.5em;
-}
-#sub1{
-	color: #36748E;
-}
-
-
-.callout {
-	    background-image: url("../images/topo-bg2.png");
-	background-repeat: repeat-x;
-}
-
 
 #essentials {
 	max-width: 1200px;
@@ -273,7 +325,7 @@ font-family:'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "De
 	.st127{fill:#FAB61B;}
 	.st128{fill:#35302E;}
 	.st129{fill:#453E3C;}
-	.st130{fill:#EF4B4D;}
+	.st130{fill:#cf4919;}
 	.st131{fill:#E34648;}
 	.st132{fill:#EE3133;}
 	.st133{fill:#F1F0F0;}
