@@ -10,16 +10,14 @@
 	font-family: 'NationalPark-Thin';
 	src: url('../fonts/NationalPark-Thin/NationalPark-Thin.woff2') format('woff2'), url('../fonts/NationalPark-Thin/NationalPark-Thin.woff') format('woff'), url('../fonts/NationalPark-Thin/NationalPark-Thin.ttf') format('truetype');
 }
-
-
 #navbar {
-cursor: url('../images/cursor1.png'), auto;
+	cursor: url('../images/cursor1.png'), auto;
 }
 #hero {
-cursor: url('../images/cursor1.png'), auto;
+	cursor: url('../images/cursor1.png'), auto;
 }
 #cursor {
-cursor: url('../images/cursor1.png'), auto;
+	cursor: url('../images/cursor1.png'), auto;
 }
 body {
 	background-image: url("../images/topo-bg2.png");
@@ -60,15 +58,12 @@ h4 {
 h5 {
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 1em;
-	color: #523C50;
+	color: #000000;
 }
 p {
-	max-width: 1200px;
 	font-size: 1.25em;
 	line-height: 1.3em;
 }
-
-
 /*  Navigation Bar  */
 #head {
 	color: #523c50;
@@ -91,10 +86,9 @@ p {
 	background-color: #C5B070;
 	border-radius: 0px 0px 15px 15px;
 }
-
 /*  Introduction  */
 .main {
-	width: 75%;
+	width: 80%;
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -102,12 +96,12 @@ p {
 	background-color: rgba(197, 176, 112, 0.75);
 	padding: 50px;
 	border-radius: 15px;
-	color: #523c50;
+	color: #000000;
 	font-size: 1em;
 	line-height: 1.1em;
 }
 #greeting {
-	color: #523c50;
+	color: #000000;
 	text-align: left;
 	font-size: 1.25em;
 	line-height: 1.3em;
@@ -131,12 +125,243 @@ p {
 }
 
 
+/*  Parks Map  */
+	.sty0{fill:#F4AE0E;stroke:#A97B31;stroke-miterlimit:10;}
+	.sty1{fill:#788C19;stroke:#A97B31;stroke-miterlimit:10;}
+	.sty2{fill:#C84C00;stroke:#A97B31;stroke-miterlimit:10;}
+	.sty3{fill:#36748E;stroke:#A97B31;stroke-miterlimit:10;}
+	.sty4{fill:#945A00;stroke:#A97B31;stroke-miterlimit:10;}
+	.sty5{fill:#523C50;stroke:#A97B31;stroke-miterlimit:10;}
+	.sty6{fill:#CEB37F;}
+	.sty7{font-family:'NationalPark-Heavy'; text-transform: uppercase;}
+	.sty8{font-size:13.5353px;}
+	.sty9{letter-spacing:1;}
+	.sty10{fill:#945A00;}
+	.sty11{fill:#523C50;}
+	.sty12{fill:#F4F4F4;}
+	.sty13{fill:#EFEFEF;}
+	.sty14{fill:#CACCCB;}
+	.sty15{fill:#665321;}
+	.sty16{fill:#26A9E0;}
+	.sty17{opacity:0.2;fill:#242420;}
+	.sty18{fill:#A97B33;}
+	.sty19{fill:#5A6913;}
+	.sty20{opacity:0.15;fill:#231F20;}
+	.sty21{fill:none;}
+	.sty22{font-family:'NationalPark-Regular';}
+	.sty23{font-size:20.0392px;}
+	.sty24{font-size:34.3529px;}
+	.sty25{letter-spacing:2;}
+	.sty26{font-size:25.2932px;}
+	.sty27{font-family:'NationalPark-Thin';}
+	.sty28{font-size:19.085px;}
+	.sty29{font-family:'NationalPark-Outline';}
+	.sty30{letter-spacing:-1;}
+	.sty31{letter-spacing:-3;}
+	.sty32{letter-spacing:-2;}
+	.sty33{font-size:32.0381px;}
+	.sty34{font-size:31.6165px;}
+
+#zion-info, #yosemite-info, #yellowstone-info, #wrangell-info, #windcave-info, #whitesands-info, #voyageurs-info, #virgin-info, #roosevelt-info, #shenandoah-info, #sequoia-info, #saguaro-info, #rockymtn-info, #redwood-info, #pinnacles-info, #petrified-info, #olympic-info, #cascades-info, #gorge-info, #northcascades-info, #rainier-info, #mesaverde-info, #mammoth-info, #lassen-info, #lakeclark-info, #kobuk-info, #kings-info, #kenai-info, #katmai-info, #joshua-info, #royale-info, #dunes-info, #hotsprings-info, #volcanoes-info, #haleakala-info, #guadalupe-info, #smokymtn-info, #sanddunes-info, #greatbasin-info, #grandteton-info, #grandcanyon-info, #glacierbay-info, #glacier-info, #gatewayarch-info, #arcticgates-info, #everglades-info, #tortugas-info, #denali-info, #deathvalley-info, #cuyahoga-info, #craterlake-info, #congaree-info, #channel-info, #carlsbad-info, #capitolreef-info, #canyonlands-info, #brycecanyon-info, #blackcanyon-info, #biscayne-info, #blackcanyon-info, #biscayne-info, #bigbend-info, #badlands-info, #arches-info, #samoa-info, #acadia-info {
+	display: none;
+}
+#acadia:hover #acadia-info {
+	display: inherit;
+}
+#samoa:hover #samoa-info {
+	display: inherit;
+}
+#arches:hover #arches-info {
+	display: inherit;
+}
+#badlands:hover #badlands-info {
+	display: inherit;
+}
+#bigbend:hover #bigbend-info {
+	display: inherit;
+}
+#biscayne:hover #biscayne-info {
+	display: inherit;
+}
+#blackcanyon:hover #blackcanyon-info {
+	display: inherit;
+}
+#brycecanyon:hover #brycecanyon-info {
+	display: inherit;
+}
+#canyonlands:hover #canyonlands-info {
+	display: inherit;
+}
+#capitolreef:hover #capitolreef-info {
+	display: inherit;
+}
+#carlsbad:hover #carlsbad-info {
+	display: inherit;
+}
+#channel:hover #channel-info {
+	display: inherit;
+}
+#congaree:hover #congaree-info {
+	display: inherit;
+}
+#craterlake:hover #craterlake-info {
+	display: inherit;
+}
+#cuyahoga:hover #cuyahoga-info {
+	display: inherit;
+}
+#deathvalley:hover #deathvalley-info {
+	display: inherit;
+}
+#denali:hover #denali-info {
+	display: inherit;
+}
+#tortugas:hover #tortugas-info {
+	display: inherit;
+}
+#everglades:hover #everglades-info {
+	display: inherit;
+}
+#arcticgates:hover #arcticgates-info {
+	display: inherit;
+}
+#gatewayarch:hover #gatewayarch-info {
+	display: inherit;
+}
+#glacier:hover #glacier-info {
+	display: inherit;
+}
+#glacierbay:hover #glacierbay-info {
+	display: inherit;
+}
+#grandcanyon:hover #grandcanyon-info {
+	display: inherit;
+}
+#grandteton:hover #grandteton-info {
+	display: inherit;
+}
+#greatbasin:hover #greatbasin-info {
+	display: inherit;
+}
+#sanddunes:hover #sanddunes-info {
+	display: inherit;
+}
+#smokymtn:hover #smokymtn-info {
+	display: inherit;
+}
+#guadalupe:hover #guadalupe-info {
+	display: inherit;
+}
+#haleakala:hover #haleakala-info {
+	display: inherit;
+}
+#volcanoes:hover #volcanoes-info {
+	display: inherit;
+}
+#hotsprings:hover #hotsprings-info {
+	display: inherit;
+}
+#dunes:hover #dunes-info {
+	display: inherit;
+}
+#royale:hover #royale-info {
+	display: inherit;
+}
+#joshua:hover #joshua-info {
+	display: inherit;
+}
+#katmai:hover #katmai-info {
+	display: inherit;
+}
+#kenai:hover #kenai-info {
+	display: inherit;
+}
+#kings:hover #kings-info {
+	display: inherit;
+}
+#kobuk:hover #kobuk-info {
+	display: inherit;
+}
+#lakeclark:hover #lakeclark-info {
+	display: inherit;
+}
+#lassen:hover #lassen-info {
+	display: inherit;
+}
+#mammoth:hover #mammoth-info {
+	display: inherit;
+}
+#mesaverde:hover #mesaverde-info {
+	display: inherit;
+}
+#rainier:hover #rainier-info {
+	display: inherit;
+}
+#northcascades:hover #northcascades-info {
+	display: inherit;
+}
+#gorge:hover #gorge-info {
+	display: inherit;
+}
+#cascades:hover #cascades-info {
+	display: inherit;
+}
+#olympic:hover #olympic-info {
+	display: inherit;
+}
+#petrified:hover #petrified-info {
+	display: inherit;
+}
+#pinnacles:hover #pinnacles-info {
+	display: inherit;
+}
+#redwood:hover #redwood-info {
+	display: inherit;
+}
+#rockymtn:hover #rockymtn-info {
+	display: inherit;
+}
+#saguaro:hover #saguaro-info {
+	display: inherit;
+}
+#sequoia:hover #sequoia-info {
+	display: inherit;
+}
+#shenandoah:hover #shenandoah-info {
+	display: inherit;
+}
+#roosevelt:hover #roosevelt-info {
+	display: inherit;
+}
+#virgin:hover #virgin-info {
+	display: inherit;
+}
+#voyageurs:hover #voyageurs-info {
+	display: inherit;
+}
+#whitesands:hover #whitesands-info {
+	display: inherit;
+}
+#windcave:hover #windcave-info {
+	display: inherit;
+}
+#wrangell:hover #wrangell-info {
+	display: inherit;
+}
+#yellowstone:hover #yellowstone-info {
+	display: inherit;
+}
+#yosemite:hover #yosemite-info {
+	display: inherit;
+}
+#zion:hover #zion-info {
+	display: inherit;
+}
 /*  Leave No Trace  */
 button {
 	cursor: auto;
 }
 .orbit-container {
-	max-width: 1200px;
 	max-height: 525px;
 	overflow: scroll;
 }
@@ -171,7 +396,7 @@ button {
 	letter-spacing: 1px;
 	font-size: 1.4em;
 	margin-bottom: .5rem;
-	color: #523c50;
+	color: #cf4919;
 	text-transform: uppercase;
 	padding-top: .5rem;
 }
@@ -184,11 +409,8 @@ button {
 .lnt-body {
 	margin-bottom: .75rem;
 }
-
-
 /*  10 Essentials  */
 #essentials {
-	max-width: 1200px;
 }
 .st0 {
 	fill: #1B3A47;
@@ -297,7 +519,6 @@ button {
 .st33 {
 	font-size: 34px;
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-
 }
 .st34 {
 	font-size: 40px;
@@ -709,9 +930,6 @@ button {
 .sun-protection:hover #sun-bg {
 	display: inherit;
 }
-
-
-
 footer {
 	background-color: #C5B070;
 	border-radius: 15px 15px 0px 0px;
@@ -719,5 +937,4 @@ footer {
 	padding-bottom: 100px;
 	margin-top: 100px;
 	cursor: url('../images/cursor1.png'), auto;
-
 }
