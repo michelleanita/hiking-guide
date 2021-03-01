@@ -116,9 +116,8 @@ p {
 /*  Introduction  */
 .main {
 	width: 80%;
-	margin: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-left: auto;
+    margin-right: auto;
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color: rgba(197, 176, 112, 0.75);
 	padding: 50px;
@@ -129,9 +128,8 @@ p {
 }
 .intro {
 	width: 80%;
-	margin: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-left: auto;
+    margin-right: auto;
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color: rgba(197, 176, 112, 0.75);
 	padding: 50px;
@@ -169,7 +167,8 @@ p {
 
 .map {
 	width: 100%;
-	margin: auto;
+	margin-right: auto;
+    margin-left: auto;
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color: rgba(197, 176, 112, 0.75);
 	padding: 50px;
@@ -181,7 +180,6 @@ p {
 .parks {
 	width: 80%;
 	margin: auto;
-	margin-top: 25px;
 	margin-bottom: 25px;
 	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	border-radius: 15px;
@@ -442,7 +440,10 @@ button {
 	color: #000000;
 }
 .lnt {
-	padding: 50px;
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 	column-count: 2;
 	column-gap: 2em;
 	column-rule: solid 2px;
@@ -1010,8 +1011,8 @@ button {
 footer {
 	background-color: #C5B070;
 	padding-top: 50px;
-	padding-bottom: 100px;
-	margin-top: 100px;
+	padding-bottom: 75px;
+	margin-top: 50px;
 	cursor: url('../images/cursor1.png'), auto;
 }
 .right {
