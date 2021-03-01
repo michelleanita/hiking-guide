@@ -102,7 +102,7 @@ p {
 }
 /*  Introduction  */
 .main {
-	width: 86%;
+	width: 80%;
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -389,7 +389,7 @@ button {
 	cursor: auto;
 }
 .orbit-container {
-	max-height: 525px;
+	max-height: 555px;
 	overflow: scroll;
 }
 .orbit-bullets button {
@@ -870,6 +870,9 @@ button {
 }
 .st137 {
 	fill: #E02C2E;
+}
+.st138 {
+	fill: #963900; opacity: 0%;
 }
 #hiker:hover #introduction {
 	display: inherit;
