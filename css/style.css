@@ -40,14 +40,29 @@ h1 {
 	font-size: 1.75em;
 	color: #cf4919;
 	text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
-h2, h3 {
+h2{
 	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 2.25em;
 	letter-spacing: 2px;
 	line-height: 1em;
 	color: #22506a;
 	text-transform: uppercase;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2.25em;
+	letter-spacing: 2px;
+	line-height: 1em;
+	color: #22506a;
+	text-transform: uppercase;
+    margin-bottom: 15px;
 }
 h4 {
 	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -66,7 +81,7 @@ p {
 }
 /*  Navigation Bar  */
 #head {
-	color: #523c50;
+	color: #cf4919;
 }
 .menu {
 	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -84,11 +99,10 @@ p {
 }
 .top-bar, .top-bar ul {
 	background-color: #C5B070;
-	border-radius: 0px 0px 15px 15px;
 }
 /*  Introduction  */
 .main {
-	width: 80%;
+	width: 86%;
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -96,6 +110,19 @@ p {
 	background-color: rgba(197, 176, 112, 0.75);
 	padding: 50px;
 	border-radius: 15px;
+	color: #000000;
+	font-size: 1em;
+	line-height: 1.1em;
+}
+.intro {
+	width: 100%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'NationalPark-Regular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: rgba(197, 176, 112, 0.75);
+	padding: 50px;
+	border-radius: 0px;
 	color: #000000;
 	font-size: 1em;
 	line-height: 1.1em;
@@ -369,13 +396,13 @@ button {
 	width: 1.2rem;
 	height: 1.2rem;
 	margin: .1rem;
-	background-color: #523c50;
+	background-color: #000000;
 	border-radius: 50%;
 }
 .orbit-caption, .orbit-next, .orbit-previous {
 	position: absolute;
 	padding: 1rem;
-	color: #523c50;
+	color: #000000;
 }
 .lnt {
 	padding: 50px;
@@ -385,20 +412,20 @@ button {
 	font-size: .9em;
 }
 .lnt-head {
-	font-size: 1.6em;
+	font-size: 2em;
 	column-span: all;
-	margin-bottom: 1.5rem;
+	margin-bottom: 35px;
 	color: #cf4919;
 	letter-spacing: 2px;
 }
 .lnt-subhead {
 	font-family: 'NationalPark-Heavy', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	letter-spacing: 1px;
+	letter-spacing: 1.25px;
 	font-size: 1.4em;
 	margin-bottom: .5rem;
 	color: #cf4919;
 	text-transform: uppercase;
-	padding-top: .5rem;
+	padding-bottom: .5rem;
 }
 .lnt-list {
 	list-style: disc;
@@ -408,9 +435,16 @@ button {
 }
 .lnt-body {
 	margin-bottom: .75rem;
+    padding-bottom: .25rem;
+
 }
 /*  10 Essentials  */
 #essentials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .st0 {
 	fill: #1B3A47;
@@ -932,7 +966,6 @@ button {
 }
 footer {
 	background-color: #C5B070;
-	border-radius: 15px 15px 0px 0px;
 	padding-top: 50px;
 	padding-bottom: 100px;
 	margin-top: 100px;
