@@ -544,6 +544,9 @@ button {
 	margin-right: auto;
 	max-height: 650px;
 }
+.short {
+		padding-bottom: 20px;
+}
 .st0 {
 	fill: #1B3A47;
 }
