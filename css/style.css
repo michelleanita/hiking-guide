@@ -504,7 +504,6 @@ button {
 	padding-bottom: 25px;
 	column-count: 2;
 	column-gap: 2em;
-	column-rule: solid 2px;
 	font-size: .9em;
 }
 .lnt-head {
