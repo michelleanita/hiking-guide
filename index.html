@@ -12,23 +12,22 @@
 </head>
 
 <body>
-    <a id="top-anchor"></a>
     <!-- Start Top Bar -->
-    <div data-sticky-container>
+    <div id="top" data-sticky-container>
         <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
             <div class="top-bar-left">
                 <ul class="menu">
-                    <li class="menu-text"><a href="#top-anchor" id="logo">Beginner's Guide to Hiking</a>
+                    <li class="menu-text"><a href="#top" id="logo">Beginner's Guide to Hiking</a>
                     </li>
                 </ul>
             </div>
             <div class="top-bar-right">
                 <ul class="menu">
-                    <li><a href="#parks-anchor">U.S. National Parks</a>
+                    <li><a href="#map">U.S. National Parks</a>
                     </li>
-                    <li><a href="#lnt-anchor">Leave No Trace</a>
+                    <li><a href="#lnt">Leave No Trace</a>
                     </li>
-                    <li><a href="#essential-anchor">10 Essentials</a>
+                    <li><a href="#essentials">10 Essentials</a>
                     </li>
                 </ul>
             </div>
@@ -46,14 +45,13 @@
                 be sure to gather and pack the 10 Essentials, which are the basic items one should carry to be adequately prepared when entering the backcountry.</h2>
             <h2 id="sub2">Happy Hiking!</h2>
         </div>
-        <a id="parks-anchor"><br><br><br> </a>
-        <div class="map">
+        <section id="map" data-magellan-target="map">
+			<div class="map">
             <div class="parks">
                 <h3>U.S. National Parks</h3>
                 <p>There are 63 incredible lands that have been designated as American National Parks. 327,516,619 visitors ventured to these great spaces to enjoy the natural splendor in 2019 alone. Explore the map below to learn more about these beautiful
                     places. Each tree designates a National Park location. Hover on the trees to learn more about each National Park.</p>
             </div>
-
             <svg version="1.1" id="map_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2075 750" style="enable-background:new 0 0 2075 750;" xml:space="preserve">
 <g id="background">
 	<g id="states">
@@ -6271,13 +6269,9 @@
 		</g>
 	</g>
 </g>
-        </svg></div>
+				</svg></div></section>
 
-
-        <a id="lnt-anchor"><br>
-            <br>
-            <br>
-        </a>
+        <section id="lnt" data-magellan-target="lnt">
         <div class="main">
             <h3>Leave No Trace</h3>
             <div class="orbit" role="region" aria-label="Leave No Trace Principles" data-orbit data-auto-play="false" data-swipe="true" data-accessible="true">
@@ -6477,16 +6471,15 @@
                 </nav>
             </div>
         </div>
-        <a id="essential-anchor"><br>
-            <br>
-            <br>
-        </a>
+		</section>
+		
+		<section id="essentials" data-magellan-target="essentials">
         <div class="main">
             <h3>10 Essentials</h3>
             <p>The 10 Essentials are a collection of first aid and emergency items that can help you in the event of minor injuries, sudden weather changes, or unexpected delays. The 10 Essentials are only the basic items you should have with you. You may
                 need additional items depending on the activities in which you participate. Hover over each set of items to learn more about the necessary gear.</p>
 
-            <svg version="1.1" id="essentials" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 800" style="enable-background:new 0 0 1200 800;" xml:space="preserve">
+            <svg version="1.1" id="tenessentials" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 800" style="enable-background:new 0 0 1200 800;" xml:space="preserve">
 			<g id="hiker">
 				<path class="st0" d="M317.1,227.9c0,0-11.6-16.8-9.6-27.5c2-10.6,36.6-43.7,71.7-34.4l-0.6,42.4L317.1,227.9z"/>
 				<path class="st1" d="M349.3,206.6c0,0-14.8-12.5-32.4-7.5c0.3,18.1-6.6,42.6-1.2,67.6c2.9,14,4.5,27.5,4.4,35.2
@@ -7691,7 +7684,8 @@
 				</g>
 			</g>
               </svg>
-        </div>
+			</div>
+		</section>
     </div>
     <footer>
         <div class="row">
